@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "schedule": ["every monday after 2pm before 4pm"],
+  "schedule": ["0 16 * * 1"],
   "automerge": true,
   "dependencyDashboard": true,
   "rebaseWhen": "conflicted"
