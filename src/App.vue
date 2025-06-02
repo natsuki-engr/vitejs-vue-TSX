@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 const { message } = defineProps(['message']);
 
 const render = () => {
-  return <div>hi</div>;
+  return <HelloWorld msg="Hello" />;
 };
 </script>
 
