@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "schedule": ["* 16 * * 1"],
+  "schedule": ["* 17 * * 1"],
   "automerge": true,
   "dependencyDashboard": true,
   "rebaseWhen": "conflicted"
