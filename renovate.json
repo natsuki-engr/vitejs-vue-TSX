@@ -8,5 +8,15 @@
   ],
   "automerge": true,
   "dependencyDashboard": true,
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+  "packageRules": [
+    {
+      "groupName": "vue",
+      "matchPackageNames": ["vue", "vue-tsc", "@vue/tsconfig", "@vitejs/plugin-vue", "@vitejs/plugin-vue-jsx"]
+    },
+    {
+      "groupName": "testing tools",
+      "matchPackageNames": ["vitest", "happy-dom", "@testing-library/vue"]
+    }
+  ]
 }
