@@ -11,7 +11,7 @@
     "jsx": "preserve",
 
     "baseUrl": ".",
-    "types": ["vite/client"],
+    "types": ["vite/client", "vitest/globals"],
     "paths": {
       "@/*": ["./src/js/*"]
     }
