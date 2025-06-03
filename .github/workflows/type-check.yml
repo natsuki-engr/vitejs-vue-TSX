@@ -2,13 +2,8 @@ name: Type Check
 
 on:
   pull_request:
-    paths:
-      - "**/*.ts"
-      - "**/*.tsx"
-      - "**/*.vue"
-      - package.json
-      - tsconfig.json
-      - vite.config.js
+    branches:
+      - main
 
 jobs:
   type-check:
