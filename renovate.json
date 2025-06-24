@@ -6,7 +6,7 @@
   "schedule": [
     "* 17 * * 1"
   ],
-  "automerge": true,
+  "automerge": false,
   "dependencyDashboard": true,
   "rebaseWhen": "conflicted",
   "packageRules": [
