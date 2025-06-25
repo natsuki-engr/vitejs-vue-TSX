@@ -6,7 +6,7 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 export default defineConfig({
   plugins: [vue(), vueJsx()],
   test: {
-    globals: true,
-    environment: 'happy-dom'
+    include: ["src/**/*.test.ts", "src/**/*.test.tsx"],
+    exclude: ["src/**/*.browser.test.ts", "src/**/*.browser.test.tsx"],
   },
 });
