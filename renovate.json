@@ -10,6 +10,7 @@
   "dependencyDashboard": true,
   "rebaseWhen": "conflicted",
   "minimumReleaseAge": "1 week",
+  "configMigration": true,
   "packageRules": [
     {
       "groupName": "vue",
