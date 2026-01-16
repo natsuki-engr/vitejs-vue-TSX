@@ -18,7 +18,8 @@
     },
     {
       "groupName": "testing tools",
-      "matchPackageNames": ["vitest", "happy-dom", "@testing-library/vue"]
+      "matchPackageNames": ["happy-dom", "@testing-library/vue"],
+      "matchPackagePatterns": ["^vitest", "^@vitest/"]
     }
   ]
 }
