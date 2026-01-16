@@ -14,12 +14,22 @@
   "packageRules": [
     {
       "groupName": "vue",
-      "matchPackageNames": ["vue", "vue-tsc", "@vue/tsconfig", "@vitejs/plugin-vue", "@vitejs/plugin-vue-jsx"]
+      "matchPackageNames": [
+        "vue",
+        "vue-tsc",
+        "@vue/tsconfig",
+        "@vitejs/plugin-vue",
+        "@vitejs/plugin-vue-jsx"
+      ]
     },
     {
       "groupName": "testing tools",
-      "matchPackageNames": ["happy-dom", "@testing-library/vue"],
-      "matchPackagePatterns": ["^vitest", "^@vitest/"]
+      "matchPackageNames": [
+        "happy-dom",
+        "@testing-library/vue",
+        "/^vitest/",
+        "/^@vitest//"
+      ]
     }
   ]
 }
