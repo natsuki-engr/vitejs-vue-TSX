@@ -7,7 +7,9 @@
     "* 17 * * 1"
   ],
   "automerge": false,
-  "dependencyDashboard": true,
+  "dependencyDashboard": {
+    "enabled": true
+  },
   "rebaseWhen": "conflicted",
   "minimumReleaseAge": "1 week",
   "configMigration": true,
